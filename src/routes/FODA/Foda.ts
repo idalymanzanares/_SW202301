@@ -1,5 +1,5 @@
 import express from 'express';
-import { EmpresasDao } from '@server/dao/models/Empresas/empresasDao';
+import { EmpresasDao } from '@server/dao/models/Empresas/EmpresasDao';
 import { FodaDao } from '@dao/models/FODA/FodaDao';
 import { MongoDBConn } from '@dao/MongoDBConn';
 import {Foda} from '@libs/FODA/Foda';
